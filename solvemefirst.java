@@ -7,10 +7,14 @@ import java.util.regex.*;
 public class Solution {
 
 
-    static int solveMeFirst(int a, int b) {
-      	// Hint: Type return a+b; below 
 
-   }
+    static int solveMeFirst(int a, int b) {
+      // Hint: Type return a+b; below
+    //   int tot = 0;
+    //   tot = a+b;
+      return a+b;
+      
+	}
 
  public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -21,5 +25,5 @@ public class Solution {
         int sum;
         sum = solveMeFirst(a, b);
         System.out.println(sum);
-   }
+	}
 }
